@@ -47,7 +47,12 @@ Docker images prune
 ``` 
 ```
 Docker volume prune
-``` 
+```
+
+### Clear All Files from Docker (Images/Containers/Volumes etc)
+```
+docker system prune -a --volumes
+```
 ### - logs (to get the logs of the Container)
 ```
 docker logs <container-name>
